@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.top-content {
+    background: url(./img/code.jpg);
+    height: 60%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title-container { 
+
+    flex: 4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.title {
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.para-container {
+
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-para {
+    text-align: center;
+    color: white;
+    font-size: .9em;
+    width: 80%;
+}
+.btn-container {
+
+    flex: 4;
+    display: flex;
+    align-items: flex-start;
+}
+
+.read-more-btn {
+    height: 50px;
+    width: 100px;
+    color: white;
+    background: rgb(53, 44, 70);
+    border: 1px solid white;
+}
+
+.mid-container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.subtitle {
+    text-align: center;
+    color: rgb(53, 44, 70);
+    font-family: "Roboto", sans-serif;
+    margin: 30px 0 0 0;   
+}
+.mid-para-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mid-para {
+    color: rgb(53, 44, 70);
+    margin: 40px 20px;
+    width: 40vh;
+    font-size: .8em;
+    text-align: center;
+}
+
+.type-container {
+    background: rgb(53, 44, 70);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card-container {
+    background: white;
+    margin: 20px 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    margin: 20px 10px 0 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgb(53, 44, 70);
+}
+
+.card-para {
+    margin: 20px;
+    font-size: .8em;
+    text-align: center;
+}
+
+#later-para {
+    width: 90vw;
+}
+
+.last-container {
+    background: rgb(0, 132, 255);
+    display: flex;
+    
+}
+
+.column-container {
+    justify-content: center;
+    width: 50%;
+    flex: 1;
+}
+.bulu{
+    background: rgba(55, 101, 201, 0.562);
+}
+
+.grey {
+    background: rgb(62, 62, 78);
+}
+
+#whtclr {
+    color: white;
+    width: auto;
+}
+
+.footer-container {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.link {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+@media screen and  (max-width: 750px){
+    .type-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-container {
+        width: 80%;
+    }
+}
